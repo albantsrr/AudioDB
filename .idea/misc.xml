@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1105" />
+        <entry key="app/src/main/res/drawable-v24/shape_background_grey.xml" value="0.107" />
+        <entry key="app/src/main/res/drawable-v24/shape_rounded_grey_8_dp.xml" value="0.1105" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_assessment_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_close.xml" value="0.11762390136718759" />
+        <entry key="app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.107" />
+        <entry key="app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.1105" />
+        <entry key="app/src/main/res/drawable/ic_baseline_keyboard_arrow_right_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_star_border_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/shape_rounded_white.xml" value="0.6230030517578126" />
+        <entry key="app/src/main/res/drawable/shape_rounded_white_8_dp.xml" value="0.107" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/adapter_album.xml" value="0.20571257679174976" />
+        <entry key="app/src/main/res/layout/adapter_classement.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/adapter_classement_item.xml" value="0.10555555555555556" />
+        <entry key="app/src/main/res/layout/adapter_item_album.xml" value="0.19813684534143522" />
+        <entry key="app/src/main/res/layout/adapter_item_artist.xml" value="0.24676202844690387" />
+        <entry key="app/src/main/res/layout/adapter_item_artiste.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/adapter_item_title.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/adapter_item_titre.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/adapter_rank_item.xml" value="0.2891156462585034" />
+        <entry key="app/src/main/res/layout/adapter_titre_detail_item.xml" value="0.1417158606356133" />
+        <entry key="app/src/main/res/layout/adapter_track.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/adapter_track_detail_item.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/adapter_tracks_detail_item.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/component_edit_text_search.xml" value="0.2109777015437393" />
+        <entry key="app/src/main/res/layout/component_radius_button.xml" value="0.27375201288244766" />
+        <entry key="app/src/main/res/layout/fragment_album.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/fragment_album_detail.xml" value="0.2095891795798629" />
+        <entry key="app/src/main/res/layout/fragment_artist_detail.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/fragment_classement.xml" value="0.10555555555555556" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/fragment_favoris.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_favorite.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/fragment_rank.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/fragment_search.xml" value="0.15512084960937506" />
+        <entry key="app/src/main/res/layout/fragment_title.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_titre.xml" value="0.10555555555555556" />
+        <entry key="app/src/main/res/layout/fragment_track.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/search_bar.xml" value="0.10555555555555556" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.1638888888888889" />
+        <entry key="app/src/main/res/menu/menu_detail.xml" value="0.1638888888888889" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

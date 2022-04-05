@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@id/classementScreenFragment"
+        android:icon="@drawable/ic_baseline_assessment_24"
+        android:title="Classement" />
+
+    <item
+        android:id="@id/searchScreenFragment"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Recherche" />
+
+    <item
+        android:id="@id/favorisScreenFragment"
+        android:icon="@drawable/ic_baseline_view_column_24"
+        android:title="Favoris" />
+
+</menu>

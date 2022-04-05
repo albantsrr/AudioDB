@@ -1,0 +1,6 @@
+<resources>
+
+    <!-- Corner Radius -->
+    <dimen name="radius_16dp">16dp</dimen>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--- TabLayout -->
+    <style name="MaterialTab.Primary" parent="Widget.MaterialComponents.TabLayout">
+        <item name="color">?attr/colorPrimary</item>
+        <item name="tabIconTint">?attr/colorPrimary</item>
+        <item name="tabTextColor">?attr/colorPrimary</item>
+        <item name="tabIndicatorColor">?attr/colorPrimary</item>
+        <item name="tabRippleColor">?attr/colorPrimary</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+</resources>

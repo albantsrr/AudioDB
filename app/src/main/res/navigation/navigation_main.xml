@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/classementScreenFragment">
+
+    <fragment
+        android:id="@+id/classementScreenFragment"
+        android:name="com.supdeweb.audiodb.screen.classement.ClassementScreenFragment"
+        android:label="ClassementScreenFragment"
+        tools:layout="@layout/fragment_classement" />
+
+    <fragment
+        android:id="@+id/searchScreenFragment"
+        android:name="com.supdeweb.audiodb.screen.search.SearchScreenFragment"
+        android:label="searchScreenFragment"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/favorisScreenFragment"
+        android:name="com.supdeweb.audiodb.screen.favoris.FavorisScreenFragment"
+        android:label="FavorisScreenFragment"
+        tools:layout="@layout/fragment_favoris" />
+
+    <fragment
+        android:id="@+id/albumDetailScreenFragment"
+        android:name="com.supdeweb.audiodb.screen.details.album.AlbumDetailScreenFragment"
+        android:label="AlbumDetailScreenFragment"
+        tools:layout="@layout/fragment_album_detail">
+        <argument
+            android:name="albumId"
+            app:argType="string"
+            app:nullable="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/albumFragment"
+        android:name="com.supdeweb.audiodb.screen.classement.AlbumFragment"
+        android:label="AlbumFragment"
+        tools:layout="@layout/fragment_album">
+        <action
+            android:id="@+id/action_albumFragment_to_albumDetailFragment"
+            app:destination="@id/albumDetailScreenFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/titreScreenFragment"
+        android:name="com.supdeweb.audiodb.screen.classement.TitreScreenFragment"
+        android:label="TitreScreenFragment"
+        tools:layout="@layout/fragment_titre">
+        <action
+            android:id="@+id/action_trackFragment_to_artistDetailFragment"
+            app:destination="@id/artistDetaiScreenFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/artistDetaiScreenFragment"
+        android:name="com.supdeweb.audiodb.screen.details.artiste.ArtistDetaiScreenFragment"
+        android:label="ArtistDetaiScreenFragment"
+        tools:layout="@layout/fragment_artist_detail">
+        <argument
+            android:name="artistId"
+            app:argType="string"
+            app:nullable="false" />
+        <action
+            android:id="@+id/action_artistDetailFragment_to_albumDetailFragment"
+            app:destination="@id/albumDetailScreenFragment" />
+    </fragment>
+</navigation>
